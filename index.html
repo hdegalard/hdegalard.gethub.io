@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!-->
+<html>
+<!--<![endif]-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
+    <title>Hugues de Galard</title>
+    <meta name="author" content="Hugues de Galard">
+    <meta name="description" content="Welcome to the home page of Hugues DeGalard.">
+    <link rel="shortcut icon" href="hugues-icon.ico" type="image/vnd.microsoft.icon">
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+        }
+
+        html {}
+
+        body {
+            margin: 2.2rem;
+        }
+
+        div#resume {
+            min-width: 310px;
+            font: 16px Helvetica, Avenir, sans-serif;
+            line-height: 24px;
+            color: #000
+        }
+
+        div#resume h1 {
+            margin: 0 0 16px 0;
+            padding: 0 0 16px 0;
+            font-size: 42px;
+            font-weight: bold;
+            letter-spacing: -2px;
+            border-bottom: 1px solid #999;
+            line-height: 50px
+        }
+
+        div#resume h2 {
+            font-size: 20px;
+            margin: 0 0 6px 0;
+            position: relative
+        }
+
+        div#resume h2 span {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            font-style: italic;
+            font-family: Georgia, serif;
+            font-size: 16px;
+            color: #999;
+            font-weight: normal
+        }
+
+        div#resume p {
+            margin: 0 0 16px 0
+        }
+
+        div#resume a {
+            color: #999;
+            text-decoration: none;
+            border-bottom: 1px dotted #999
+        }
+
+        div#resume a:hover {
+            border-bottom-style: solid;
+            color: #000
+        }
+
+        div#resume p.objective {
+            font-family: Georgia, serif;
+            font-style: italic;
+            color: #666
+        }
+
+        div#resume dt {
+            font-style: italic;
+            font-weight: bold;
+            font-size: 18px;
+            text-align: right;
+            padding: 0 26px 0 0;
+            width: 150px;
+            border-right: 1px solid #999
+        }
+
+        div#resume dl {
+            display: table-row
+        }
+
+        div#resume dl dt,
+        div#resume dl dd {
+            display: table-cell;
+            padding-bottom: 20px
+        }
+
+        div#resume dl dd {
+            width: 500px;
+            padding-left: 26px
+        }
+
+        div#resume img {
+            float: right;
+            padding: 10px;
+            background: #fff;
+            margin: 0 30px;
+            transform: rotate(-4deg);
+            box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+            width: 30%;
+            max-width: 220px;
+        }
+
+        @media screen and (max-width:1100px) {
+            div#resume h2 span {
+                position: static;
+                display: block;
+                margin-top: 2px
+            }
+        }
+
+        @media screen and (max-width:550px) {
+            body {
+                margin: 1rem
+            }
+            div#resume img {
+                transform: rotate(0deg)
+            }
+        }
+
+        @media screen and (max-width:400px) {
+            div#resume dl dt {
+                border-right: none;
+                border-bottom: 1px solid #999
+            }
+            div#resume dl,
+            div#resume dl dd,
+            div#resume dl dt {
+                display: block;
+                padding-left: 0;
+                margin-left: 0;
+                padding-bottom: 0;
+                text-align: left;
+                width: 100%
+            }
+            div#resume dl dd {
+                margin-top: 6px
+            }
+            div#resume h2 {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px
+            }
+            div#resume dt {
+                font-size: 20px
+            }
+            h1 {
+                font-size: 36px;
+                margin-right: 0;
+                line-height: 0
+            }
+            div#resume img {
+                margin: 0
+            }
+        }
+
+        @media screen and (max-width:320px) {
+            body {
+                margin: 0
+            }
+            img {
+                margin: 0;
+                margin-bottom: -40px
+            }
+            div#resume {
+                width: 320px;
+                padding: 12px;
+                overflow: hidden
+            }
+            p,
+            li {
+                margin-right: 20px
+            }
+        }
+
+        @media print {
+            div#resume {
+                line-height: 18px !important;
+            }
+            .printed {
+                display: none;
+            }
+            div#resume img {
+                width: 25%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="resume">
+        <img src="download.jpg" alt="Hugues DeGalard">
+        <h1>Hugues de Galard</h1>
+        <p>Cell: <a href="tel:555-666-7777">555-666-7777</a></p>
+        <p>Web: <a href="http://www.huguesdegalard.com">huguesdegalard.com</a></p>
+        <p>Email: <a href="mailto:hugues@huguesdegalard.com">hugues@huguesdegalard.com</a></p>
+        <p class="printed"><a href="" id="print">Print</a> or <a href="">Download</a></p>
+        <p id="objective">I am a reserved but ambitious young professional seeking a career that fits my professional skills, personality, phenomenal farting ability. I am also an ace at playing zombie centered video games and have been known to eat only pizza and ice cream all day.</p>
+        <dl>
+            <dt>Education</dt>
+            <dd>
+                <h2>Somewhere University</h2>
+                <p><strong>Major:</strong> Beers and Stuff<br/>
+                    <strong>Minor:</strong> Romance Languages</p>
+            </dd>
+        </dl>
+        <dl>
+            <dt>Skills</dt>
+            <dd>
+                <h2>Office Skills</h2>
+                <p>Office and records management, database administration, event organization, customer support, travel coordination</p>
+                <h2>Computer skills</h2>
+                <p>Microsoft productivity software (Word, Excel, etc), Adobe Creative Suite, Windows, HTMotherfuckinL, CSS
+                </p>
+            </dd>
+        </dl>
+        <dl>
+            <dt>Experience</dt>
+            <dd>
+                <h2>Sopexa
+                    <span>Project Manager, Paris 1999 – present</span>
+                </h2>
+                <ul>
+                    <li>Pretty much did everything</li>
+                    <li>Babysat my bosses halfie children</li>
+                </ul>
+                <h2>Valrhona
+                    <span>Chocolate Taster, New York 1889 – 1888</span>
+                </h2>
+                <ul>
+                    <li>Eating various chocolates: milk, white, dark.</li>
+                </ul>
+                <h2>Somewhere else
+                    <span>Intern, Toulousse 1885 – 1888</span>
+                </h2>
+                <ul>
+                    <li>Farted at a desk and did nothing</li>
+                    <li>Intimidated students</li>
+                </ul>
+            </dd>
+        </dl>
+        <dl>
+            <dt>Hobbies</dt>
+            <dd>Farting, Fine Food, Games, Running sometimes, and whatever</dd>
+        </dl>
+        <dl>
+            <dt>References</dt>
+            <dd>Available on request</dd>
+        </dl>
+
+    </div>
+    <script>
+        (function(w, d) {
+            'use strict';
+
+            d.querySelector('#print').addEventListener('click', function() {
+                w.print();
+            }, false);
+
+        }(window, document));
+
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js" type="text/javascript"></script>
+</body>
+
+</html>
